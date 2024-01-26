@@ -1,5 +1,5 @@
 function Home() {
-    const text = 
+    /* const text = 
         <center>
         <title>O Bem</title>
 
@@ -33,9 +33,9 @@ function Home() {
 
         <br></br>
         Arlindo Cruz / Delcio Luiz
-    </center>
+    </center> */
 
-    return text;
+    return <h1><center>Oh moh, não vai almoçar não??</center></h1>
 }
 
 export default Home;
