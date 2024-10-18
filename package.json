@@ -4,7 +4,9 @@
   "description": "Aprimorando meus conhecimentos de programação através do curso https://curso.dev ministrado pelo  Programador, Instrutor e Youtuber Filipe Deschamps utilizando a aplicação https://www.tabnews.com.br com base para os estudos",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
@@ -14,5 +16,8 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
   }
 }
